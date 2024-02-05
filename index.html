@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" style="font-size: 25px; color:#ecf0dd" href="index.html">Online Shopping</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <form class="d-flex nav-buttons" id="links">
+         <button class="btn  mx-2 px-3 nav-btn" style="font-size: 18px;" type="submit"><a href="login.html">Login</a></button>
+        <button class="btn  mx-2 px-3 nav-btn"style="font-size: 18px;" type="submit"><a href="register.html">Register</a></button>
+        </form>
+
+       <div id="user_info">
+        <a href="#" id="user" class="user-view"></a>
+        <ul>
+          <li class="shopping-cart">
+            <a href="favorites.html"><i class="fas fa-star" style="margin-right: 10px;"></i></a>
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge">0</span>
+            <div class="cart-products">
+              <div></div>
+              <a href="cartsproducts.html" class="cart-view">View all products</a>
+            </div>
+          </li>
+        </ul>
+        <a href="#" id="logout" class="user-view">Logout</a>
+       </div>
+       <div class="d-flex">
+        <input class="form-control me-2" style="background-color: #D7DBCA; color:#4e513f"  id="search" type="text" placeholder="Search" >
+       </div>     
+      </div>
+    </div><!-- container -->
+  </nav>
+
+  <div class="container">
+    <div class="header-content">
+      <div class="header-content-title">
+        <h1 style="color: white;">Super value deals</h1>
+        <h1 style="color: #c89e5f;">On all products</h1>
+      </div><!-- header-content-title -->
+
+      <div class="header-content-offer">
+        <p style="color: white; font-size:18px;">Save more with coupons & up to 70% off!</p>
+        <button class="btn px-5 shop-btn"><a href="#products">Shop now</a></button>
+      </div><!-- header-content-offer -->
+
+    </div><!-- header-content -->
+
+  </div> <!-- container -->
+
+ </header>
+
+ <div class="products-main-title">
+  <h1>Featured Products</h1>
+  <hr class="main-title-hr">
+ </div>
+
+ <section id="products">
+  <div class="container">
+    
+ 
+
+    <div class="row product-content">
+      
+     
+    </div><!-- product-content -->
+  </div><!-- container -->
+ </section>
+
+ <footer>
+  <div class="container">
+    <div class="row footer-content">
+      <div class="footer-item mx-auto col-lg-4 col-md-6 col-sm-12" style="width: 25rem;">
+        <h2 class="footer-title">Products</h2>
+      <ul>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Bags</a></li>
+        <li><a href="#">T-shirts</a></li>
+      </ul>
+      </div><!-- footer-item -->
+      <div class="footer-item mx-auto col-lg-4 col-md-6 col-sm-12" style="width: 25rem;">
+        <h2 class="footer-title">Company Info</h2>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+      </div><!-- footer-item -->
+      <div class="footer-item mx-auto col-lg-4 col-md-6 col-sm-12" style="width: 25rem;">
+        <h2 class="footer-title">Follow Us</h2>
+      <ul>
+        <li><a href="#" class="text-light"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#" class="text-light"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" class="text-light"><i class="fab fa-tiktok"></i></a></li>
+      </ul>
+      </div><!-- footer-item -->
+      
+    </div><!-- footer-content -->
+  </div> <!-- container -->
+ </footer>
+
+ 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

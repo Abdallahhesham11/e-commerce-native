@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carts Products</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" style="font-size: 25px; color:white" href="index.html">Online Shopping</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <form class="d-flex nav-buttons"  id="links">
+                <button class="btn  mx-2 px-3 nav-btn" style="font-size: 18px;" type="submit"><a href="login.html">Login</a></button>
+                <button class="btn  mx-2 px-3 nav-btn"style="font-size: 18px;" type="submit"><a href="register.html">Register</a></button>
+            </form>
+
+            <div id="user_info">
+                <a href="#" id="user" class="user-view"></a>
+                <ul>
+                  <li class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge">0</span>
+                    <div class="cart-products">
+                      <div></div>
+                      <a href="cartsproducts.html" class="cart-view">View all products</a>
+                    </div>
+                  </li>
+                </ul>
+                <a href="#" id="logout" class="user-view">Logout</a>
+               </div>
+
+            <form class="d-flex">
+              <input class="form-control me-2" style="background-color: #D7DBCA; color:#4e513f" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div><!-- container -->
+      </nav>
+
+      <div class="products-main-title" style= "margin-top:150px">
+        <h1>Your Products</h1>
+        <hr class="main-title-hr">
+       </div>
+
+      <section id="products">
+        <div class="container">
+          <div class="row product-content">
+            
+          </div><!-- row -->
+
+          <div class="no-products"></div>
+
+         
+
+        </div><!-- container -->
+       </section><!-- products -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/carts.js"></script>
+</body>
+</html>

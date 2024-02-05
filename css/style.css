@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #D7DBCA; */
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(../images/pexels-pixabay-163444.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;   
+}
+.navbar{
+    height: 70px;
+    background-color: #4C5D49;
+}
+.nav-buttons{
+    margin-left: auto;
+}
+.nav-buttons a{
+    text-decoration: none;
+    color: #ecf0dd;
+}
+#user_info{
+    display: none;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+.user-view{
+    text-decoration: none;
+    color: #ecf0dd;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.user-view:hover{
+    opacity: 0.9;
+    color: white;
+}
+#user_info ul{
+    list-style: none;
+}
+#user_info ul li i{
+    font-size: 20px;
+    color: #B38D55;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.badge{
+    position: absolute;
+    background-color: #E6D2B4;
+    color: black;
+    margin-left: -5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+
+}
+.cart-products{
+    background-color: #B38D55;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #B38D55;
+    display: none;
+    border-radius: 10px;
+}
+.cart-view{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+.cart-view:hover{
+    color: white;
+    opacity: 0.9;
+}
+.nav-btn{
+    background-color: #D7DBCA;
+}
+.nav-btn a{
+    color: #4e513f;
+}
+.nav-btn:hover{
+    opacity: 0.9;
+    color: grey;
+}
+.header-content{
+    margin-top: 300px;
+    margin-left: 20%;
+    position: absolute;
+}
+.header-content-offer{
+    margin-top: 20px;
+}
+.shop-btn{
+    background-color: #4C5D49;
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.shop-btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+.shop-btn a{
+    text-decoration: none;
+    color: white;
+}
+.products-main-title{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-title-hr{
+    width: 50%;
+    margin: auto;
+}
+.product-item{
+    box-shadow: 1px 1px 1px 1px #D7DBCA;
+    /* background-color: gray; */
+}
+.product-item-desc{
+    margin-top: 50px;
+    color: #444737;
+}
+.product-item-desc a{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #444737;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fav-icon{
+    margin-left: 80px;
+    font-size: 20px;
+    /* color: black; */
+}
+.fav-icon:hover{
+    cursor: pointer;
+}
+.item-btn{
+    background-color: #444737;
+   color: white;
+}
+.item-btn:hover{
+    opacity: 0.8;
+    color: white;
+}
+footer{
+    background-color: #3d4a3a;
+    padding: 30px;
+    color: #ecf0dd;
+    margin-top: 20px;
+}
+.footer-item{
+    text-align: center;
+}
+.footer-item ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-item ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-item ul li a:hover{
+    opacity: 0.8
+}
+.footer-item ul li a i{
+border-radius: 50%;
+background-color: #3d4a3a;
+color: #ecf0dd;
+font-size: 22px;
+}
+.footer-item ul li a i:hover{
+    opacity: 0.8;
+}
+.register-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: #4C5D49;
+    border-radius: 20px;
+}
+.register-content form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+.register-content form label{
+    color: white;
+}
+.register-btn{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    display: block;
+}
+.register-btn:hover{
+    opacity: 0.9;
+}
+.register-content form a{
+    text-decoration: none;
+    color: white;
+}
+.product-detail-item{
+text-align: center;
+}
+.product-detail-desc{
+    margin-top: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" style="font-size: 25px; color:white" href="index.html">Online Shopping</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <form class="d-flex nav-buttons">
+                <button class="btn  mx-2 px-3 nav-btn" style="font-size: 18px;" type="submit"><a href="login.html">Login</a></button>
+                <button class="btn  mx-2 px-3 nav-btn"style="font-size: 18px;" type="submit"><a href="register.html">Register</a></button>
+            </form>
+            <form class="d-flex">
+              <input class="form-control me-2" style="background-color: #D7DBCA;color:#4e513f" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div><!-- container -->
+      </nav>
+
+      <div class="container">
+        <div class="register-content" style="width: 25rem;">
+          <h2 style="color: white; text-align:center">Login</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter Username" id="username">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password" id="password">
+                <button class="btn register-btn" id="sign_in">Login</button>
+            </form>
+        </div><!-- register-content -->
+    </div><!-- container -->
+</header>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
